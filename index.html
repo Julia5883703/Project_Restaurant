@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry people</title>
+    <link rel="stylesheet" href="assets/styles/normalize.css">
+    <link rel="stylesheet" href="assets/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="home">
+        <!--Навигация-->
+        <header>
+            <nav id="header-menu">
+                <a href="#home" class="nav-a">HOME</a>
+                <a href="#about" class="nav-a">ABOUT</a>
+                <a href="#team" class="nav-a">TEAM</a>
+                <a href="#booking" class="nav-a">BOOKING</a>
+                <img src="assets/images/header-logo.png" alt="logo" id="logo">
+                <a href="#galerie" class="nav-a">GALERIE</a>
+                <a href="#events" class="nav-a">EVENTS</a>
+                <a href="#message-us" class="nav-a">MESSAGE US</a>
+                <a href="#contacts" class="nav-a">CONTACTS</a>
+            </nav>
+        </header>
+        <!--Главный блок-->
+        <div id="home-main">
+            <!--Часы работы-->
+            <p id="work-time">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
+            <!--Центральная часть-->
+            <div id="home-name">
+                <!--Название-->
+                <p id="home-restaurant">RESTAURANT</p>
+                <p id="home-hungry-people">hungry people</p>
+                <!--Маленькая желтая полосочка-->
+                <img src="assets/images/rectangle-home.png" alt="">
+                <!--Кнопки-ссылки-->
+                <div id="home-btn">
+                    <a href="#booking" id="book-table-a">BOOK TABLE</a>
+                    <a href="#explore" id="explore-a">EXPLORE</a>
+                </div>
+            </div>
+            <!--Социальные сети-->
+            <div id="home-social">
+                <a href="#"><img class="home-social-link" src="assets/images/facebook.png" alt="facebook"></a>
+                <a href="#"><img class="home-social-link" src="assets/images/twitter.png" alt="twitter"></a>
+                <a href="#"><img class="home-social-link" src="assets/images/instagram.png" alt="instagram"></a>
+            </div>
+            <!--Кнопка вниз-->
+            <div id="home-down-btn">
+                <a href="#about"><img src="assets/images/down-btn.png" alt="down"></a>
+            </div>
+        </div>
+    </div>
+
+    <!--About us-->
+    <article class="about-us-section" id="about">
+        <div class="section-information">
+            <h1 class="titles" id="about-us-title">ABOUT US</h1>
+            <img src="assets/images/rectangle-home.png" alt="">
+            <p class="section-bold-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                maximus, molestie est a, tempor magna.</p>
+            <p class="section-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere.
+                Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat,
+                dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+                tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+                laoreet.</p>
+        </div>
+        <div class="image-all-section">
+            <img class="image-main-all-section" src="assets/images/about-img.jpg" alt="">
+        </div>
+    </article>
+
+    <!--Team-->
+    <article class="team-section-bg" id="team">
+        <p class="block-title">OUR TEAM</p>
+        <div id="team-section">
+            <div class="image-all-section">
+                <img class="image-main-all-section" src="assets/images/team.jpg" alt="">
+            </div>
+
+            <div class="section-information">
+                <h1 class="titles white-text">MASTER CHEF</h1>
+                <img src="assets/images/rectangle-home.png" alt="">
+                <p class="section-bold-text white-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+                    velit
+                    maximus, molestie est a, tempor magna.</p>
+                <p class="section-text white-text">Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+                    posuere.
+                    Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat,
+                    dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris
+                    tincidunt feugiat diam convallis pharetra. Nulla facilisis semper
+                    laoreet.</p>
+            </div>
+        </div>
+    </article>
+
+    <!--Booking-->
+    <article id="booking">
+        <div id="booking-section">
+            <div class="section-information" id="section-information-booking">
+                <h1 class="titles" id="book-title">BOOK TABLE</h1>
+                <img src="assets/images/rectangle-home.png" alt="">
+
+                <!--форма-->
+                <div>
+                    <form id="order-container" action="#" method="post">
+                        <div>
+                            <input class="order-item-style" type="text" placeholder="Name" id="name">
+                            <label for="name"></label>
+                        </div>
+                        <div>
+                            <input class="order-item-style" type="email" placeholder="Email" id="email">
+                            <label for="email"></label>
+                        </div>
+                        <div>
+                            <input class="order-item-style" type="tel" placeholder="Phone" id="phone">
+                            <label for="phone"></label>
+                        </div>
+                        <div>
+                            <label for="people"></label>
+                            <select class="order-item-style" name="People" id="people">
+                                <option value="choose">People</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3-4">3-4</option>
+                                <option value="5-10">5-10</option>
+                                <option value="more">more</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input class="order-item-style" type="date" id="date">
+                            <label for="date"></label>
+                        </div>
+                        <div>
+                            <input class="order-item-style" type="time" id="time">
+                            <label for="time"></label>
+                        </div>
+                        <div id="order-button-div">
+                            <button id="order-book-button">BOOK NOW</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="image-all-section">
+                <img class="image-main-all-section" src="assets/images/booking.jpg" alt="">
+            </div>
+        </div>
+
+        <p class="remark grey-dark-text">Mon - Fri: <b>8PM - 10PM</b>, Sat - Sun: <b>8PM - 3AM</b>,
+            Phone: <b>+40 729 131 637/+40 726 458 782</b>
+        </p>
+    </article>
+
+    <!--Private Events-->
+    <article>
+        <div id="events-bg">
+            <h1 class="block-title" id="visible-title">PRIVATE EVENTS</h1>
+            <div id="events">
+                <div class="events-main-images">
+                    <img class="image-main-all-section" src="assets/images/weddings.png" alt="wedding">
+                    <p id="events-weddings">&nbsp;WEDDINGS</p>
+                </div>
+                <div class="events-main-images">
+                    <img class="image-main-all-section" src="assets/images/corporate.png" alt="events">
+                    <p id="events-parties">&nbsp;CORPORATE PARTIES </p>
+                </div>
+            </div>
+            <p class="remark grey-light-text">For private events please call: <b>
+                    +40 729 131 637/+40 726 458 782</b> &nbsp;or use the contact form.
+            </p>
+        </div>
+        <div id="galerie" class="events-photo">
+            <img class="events-photos" src="assets/images/photo-1.png" alt="">
+            <img class="events-photos" src="assets/images/photo-2.png" alt="">
+            <img class="events-photos" src="assets/images/photo-3.png" alt="">
+            <img class="events-photos" src="assets/images/photo-4.png" alt="">
+        </div>
+    </article>
+    <!--Contact-->
+    <article id="message-us" class="contact-section">
+        <div>
+            <h1 class="titles" id="contact-title">CONTACT</h1>
+            <img src="assets/images/rectangle-home.png" alt="">
+            <p class="section-bold-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit
+                maximus, molestie est a, tempor magna.</p>
+        </div>
+        <!--Контактная форма-->
+        <div>
+            <form id="contact-form" action="#" method="post">
+                <input class="contact-info-field" type="text" name="name" placeholder="Name" id="contact-name">
+
+                <input class="contact-info-field" type="email" name="email" placeholder="Email" id="contact-email">
+
+                <input class="contact-info-field" type="tel" name="phone" placeholder="Phone" id="contact-phone">
+
+                <input type="text" id="contact-message-field" name="message"
+                    placeholder="Message">
+
+                <button id="contact-button">SEND MESSAGE</button>                
+            </form>
+        </div>
+    </article>
+
+    <article>
+        <div id="contacts">
+            <div class="our-contacts-field">
+                <img src="assets/images/location.png" alt="address">
+                <span class="contacts-link">5th London Boulevard, U.K.</span>
+            </div>
+            <div class="our-contacts-field">
+                <img src="assets/images/phone.png" alt="telefon">
+                <a href="tel:+40729131637" class="contacts-link">+40 729 131 637</a>
+                <a href="tel:+40726458782" class="contacts-link">+40 726 458 782</a>
+            </div>
+            <div class="our-contacts-field">
+                <img src="assets/images/email.png" alt="email">
+                <a href="mailto:office@mindblister.com" class="contacts-link">office@mindblister.com</a>
+            </div>
+        </div>
+    </article>
+</body>
+
+</html>

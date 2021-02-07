@@ -1,0 +1,227 @@
+/* Секция ABOUT US*/
+
+/*.about-us-section, .booking-section{
+    padding: 10vh 5vw;
+    display: grid;
+    column-gap: 5vw;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: #f7f3f3;
+}
+
+.section-information {
+    text-align: center;
+}
+
+.section-bold-text {
+    padding: 2vh;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.1em;
+}
+
+.section-text {
+    padding: 2vh;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.88em;
+    line-height: 1.3em;
+}
+
+.image-all-section {
+    width: 27em;
+}
+
+.image-main-all-section {
+    max-width: 100%;
+    width: 100%;
+}
+
+.team-section-bg {
+    background-image: url(../images/team-bg.jpg);
+}
+
+.block-title {
+    padding: 5vh 0 0 0;
+    font-size: 0.75em;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.5em;
+    color:#ffffff;
+    text-align: center;
+}
+
+.team-section, .speciality-section {
+    padding: 5vh 5vw 10vh 5vw;
+    display: grid;
+    column-gap: 5vw;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.white-text {
+    color: white;
+}
+
+.specialities-section-bg {
+    background-image: url(../images/specialty-bg.jpg);
+}
+
+.order-container {
+    margin-top: 3vh;
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.order-item-style {
+    margin: 0;
+    padding-left: 0.2em;
+    height: 3.8em;
+    width: 17em;
+    font-size: 0.75em;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E5E5E5;
+    border: none;
+    border-radius: 5px;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+#order-book-button {
+    width: 100%;
+    height: 3.8em;
+    font-size: 0.75em;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #E8C300;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF; 
+}
+
+#order-button-div {
+    grid-column: 1/3;
+    justify-self: stretch;
+}
+
+/*
+
+
+@media screen and (max-width: 760px) {
+
+    .titles {
+        margin: 0;
+        font-size: 1.8em;
+        font-family: "Banny Round", Banny;
+        text-align: center;
+        padding: 1em 0 0.5em 0;
+    }
+
+    .about-us-section {
+        padding: 10vh 5vw;
+        display: grid;
+        column-gap: 5vw;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        background-color: #f7f3f3;
+    }
+
+    .image-main-all-section {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .section-information {
+        text-align: center;
+    }
+
+    .section-bold-text {
+        padding: 2vh;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+
+    .section-text {
+        padding: 2vh;
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.88em;
+        line-height: 1.3em;
+    }
+
+    .team-section-bg {
+        text-align: center;
+        background-image: url(../images/team.jpg);
+        height: 25em;
+    }
+
+    .block-title {
+        display: none;
+    }
+    
+    #book-title {
+        padding: 0.5em 0 0.2em 0;
+    }
+
+    #section-information-booking {
+        height: 28em;
+        color: white;
+        background-color: #00000080;
+    }
+
+    .booking-section {
+        text-align: center;
+        background-image: url(../images/booking.jpg);
+        height: 28em;
+    }
+
+    .order-container {
+        margin-top: 1em;
+        display: grid;
+        row-gap: 0.6em;
+        grid-template-rows: repeat(7, 1fr);
+        align-items: center;
+    }
+
+    .order-item-style {
+        height: 3em;
+        width: 17em;
+        font-size: 0.75em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #E5E5E5;
+        border: none;
+        border-radius: 5px;
+        color: rgba(51, 51, 51, 0.5);
+    }
+
+    #order-book-button {
+        height: 3em;
+        width: 17em;
+        font-size: 0.75em;
+        font-weight: 600;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #E8C300;
+        border: none;
+        border-radius: 5px;
+        color: #FFFFFF;
+    }
+
+    .speciality-section {
+        text-align: center;
+        background-image: url(../images/speciality.jpg);
+        height: 25em;
+    }
+/*}*/
